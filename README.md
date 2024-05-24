@@ -26,4 +26,15 @@
 <li>
   <b>Custom Filters and Handlers:</b> Spring Security allows you to customize authentication and authorization behavior by implementing custom filters, handlers, and access decision voters. This approach is suitable for implementing complex security requirements that cannot be achieved using built-in features.
 </li>
-<p></p>
+<br>
+<br>
+<h3>JWT(Json Web Token)</h3>
+<p>JWT stands for JSON Web Token. It's a compact, URL-safe means of representing claims to be transferred between two parties. These claims are typically statements about an entity (such as the user) and additional data. JWTs can be used for authentication and information exchange in a stateless, compact, and self-contained way.</p>
+
+<p><b>JWTs consist of three parts, separated by dots (.): </b></p>
+<li><b>Header: </b>Contains metadata about the type of token and the signing algorithm being used.
+</li>
+<li><b>Payload: </b>Contains the claims. Claims are statements about an entity (typically, the user) and additional data. There are three types of claims: registered, public, and private claims.
+</li>
+<li>
+<b>Signature: </b>Used to verify that the sender of the JWT is who it says it is and to ensure that the message wasn't changed along the way.</li>
