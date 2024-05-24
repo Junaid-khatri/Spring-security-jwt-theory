@@ -38,6 +38,8 @@
 </li>
 <li>
 <b>Signature: </b>Used to verify that the sender of the JWT is who it says it is and to ensure that the message wasn't changed along the way.</li>
+<br>
+<br>
 
 <p>While coding we requried following Classes or Beans</p>
 <b>
