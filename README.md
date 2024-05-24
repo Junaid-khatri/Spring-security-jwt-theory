@@ -38,3 +38,15 @@
 </li>
 <li>
 <b>Signature: </b>Used to verify that the sender of the JWT is who it says it is and to ensure that the message wasn't changed along the way.</li>
+
+<p>While coding we requried following Classes or Beans</p>
+<b>
+<li>AuthenticationManager</li>
+<li>AuthentiCationProvider</li>
+<li>UserNamePasswordToken</li>
+<li>UserNamePasswordFilter</li>
+<li>UserDetails</li>
+<li>UserDetailsService</li>
+<li>JwtService/JwtUtility</li>
+<li>JwtFilter</li>
+</b>
