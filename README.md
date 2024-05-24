@@ -6,7 +6,7 @@
 <p>
   Spring Security is a framework that focuses on providing both authentication and authorization to Java applications. Like all Spring projects, the real power of Spring Security is found in how easily it can be extended to meet custom requirements
 </p>
-<h5>Different ways to implements spring-security in application</h5>
+<h3>Different ways to implements spring-security in application</h3>
 <li><b>Using Spring Security Starter: </b>Spring Boot provides a starter module for Spring Security (spring-boot-starter-security). By adding this dependency to your pom.xml or build.gradle, Spring Boot auto-configures basic security features, such as form-based login, password encoding, and CSRF protection. This is the easiest way to get started with Spring Security in a Spring Boot application.</li>
 <p></p>
 <li><b>Custom Configuration with Java Configuration: </b>For more advanced configurations, you can create a custom SecurityConfig class annotated with @Configuration and @EnableWebSecurity. This class can extend WebSecurityConfigurerAdapter to override methods for configuring authentication, authorization, and other security settings. This approach offers full control over security configurations and allows you to define custom authentication providers, user details services, and access control rules.</li>
